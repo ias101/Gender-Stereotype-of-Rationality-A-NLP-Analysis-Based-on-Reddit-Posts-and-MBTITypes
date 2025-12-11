@@ -1,5 +1,5 @@
 # Gender Stereotype of Rationality: NLP Analysis Based on Reddit Posts and MBTI Types
-
+[Paper](./final_report.pdf)
 ## 📋 Overview
 
 This project investigates the common gender stereotype that "men are more rational than women" using Natural Language Processing (NLP) techniques. By analyzing Reddit posts and leveraging MBTI personality types (specifically the Thinking vs. Feeling dichotomy), we examine whether textual data supports or contradicts this stereotype.
@@ -55,28 +55,6 @@ Four models were trained and evaluated:
 - **Females**: 72.29% predicted as "Thinking", 27.71% as "Feeling"
 
 **Key Insight**: While both genders lean toward "Thinking," females show a more balanced distribution, contradicting the stereotype that men are more rational.
-
-## 🚀 How to Run
-
-### 1. Data Preparation
-```bash
-python src/data_preprocessing.py
-```
-
-### 2. Model Training
-```bash
-python src/model_training.py
-```
-
-### 3. Gender Analysis
-```bash
-python src/gender_analysis.py
-```
-
-### 4. Jupyter Notebook
-```bash
-jupyter notebook notebooks/exploratory_analysis.ipynb
-```
 
 ## 📝 Key Findings
 
