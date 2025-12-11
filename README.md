@@ -20,53 +20,6 @@ We investigate this by:
 2. Applying the best-performing model to gender-labeled Reddit data
 3. Analyzing the distribution of Thinking/Feeling predictions across genders
 
-## 📁 Project Structure
-
-```
-├── data/
-│   ├── feeling_thinking_dataset.csv    # Reddit posts labeled as Thinking/Feeling
-│   └── gender_dataset.csv              # Reddit posts with gender labels
-├── src/
-│   ├── data_preprocessing.py           # Text cleaning and preprocessing
-│   ├── feature_extraction.py           # TF-IDF vectorization
-│   ├── model_training.py               # Model training and evaluation
-│   ├── lstm_model.py                   # LSTM implementation with GloVe embeddings
-│   └── gender_analysis.py              # Gender prediction analysis
-├── results/
-│   ├── model_performance.csv           # Performance metrics
-│   ├── gender_predictions.png          # Visualization of results
-│   └── word_clouds/                    # Visual representations of classes
-├── notebooks/
-│   └── exploratory_analysis.ipynb      # Jupyter notebook for data exploration
-└── requirements.txt                    # Python dependencies
-```
-
-## 🛠️ Installation & Setup
-
-### Prerequisites
-
-- Python 3.8+
-- Required packages listed in `requirements.txt`
-
-### Installation
-
-1. Clone the repository:
-```bash
-git clone https://github.com/yourusername/gender-stereotype-rationality.git
-cd gender-stereotype-rationality
-```
-
-2. Install dependencies:
-```bash
-pip install -r requirements.txt
-```
-
-3. Download additional resources:
-```bash
-python -m nltk.downloader stopwords
-python -m spacy download en_core_web_sm
-```
-
 ## 📈 Methodology
 
 ### 1. Data Preprocessing
